@@ -8,6 +8,9 @@ fun loops(age:Array<Int>) {
     while(i <= age.size){
         println( age[i]*2 )
         ++i
+        if(i==5){
+            break
+        }
     }
 }
 //while loop
